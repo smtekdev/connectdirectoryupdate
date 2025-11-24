@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="signalbandviewprofile.css">
     <title>Connect Directory</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
@@ -53,13 +53,13 @@
                 <a class="brand" href="#" style="text-decoration: none;">
                     <span class="logo">
                         <i class="fa-solid fa-location-dot"
-                            style="color: #ffffff; background-color: #2c88e2; padding: 12px; border-radius: 30%; text-decoration: none;"></i>
+                            style="color: #ffffff; background-color: #2c88e2; padding: 10px 12px !important; border-radius: 30%; text-decoration: none;"></i>
                     </span>
                     <span style="color: #ffffff;">Connect Directory</span>
                 </a>
                 <!-- Buttons -->
-           <!-- HAMBURGER ICON (replace login/register buttons with this) -->
-<div id="hamburger" onclick="toggleMenu()" style="
+                <!-- HAMBURGER ICON (replace login/register buttons with this) -->
+                <div id="hamburger" onclick="toggleMenu()" style="
     width:30px;
     height:23px;
     display:flex;
@@ -67,52 +67,50 @@
     justify-content:space-between;
     cursor:pointer;
 ">
-    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
-    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
-    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
-</div>
+                    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
+                    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
+                    <span style="width:100%;height:3px;background:#ffffff;border-radius:3px;"></span>
+                </div>
 
-<div id="mobileMenu" style="
+                <div id="mobileMenu" style="
     position:absolute;
     top:60px;
     right:20px;
     background:#111c2f;
     width:190px;
-    padding:16px;
+    padding:16px 20px !important;
     border-radius:8px;
     display:none;
     box-shadow:0 10px 25px rgba(0,0,0,0.35);
     z-index:9999;
 ">
 
-    <!-- CLOSE BUTTON -->
-    <div onclick="toggleMenu()" style="
+                    <!-- CLOSE BUTTON -->
+                    <div onclick="toggleMenu()" style="
         width:100%;
         display:flex;
         justify-content:flex-end;
         margin-bottom:8px;
         cursor:pointer;
     ">
-        <span style="
+                        <span style="
             font-size:18px;
             color:white;
             line-height:18px;
             font-weight:700;
         ">×</span>
-    </div>
+                    </div>
 
-    <a href="#" style="color:white;text-decoration:none;display:block;padding:10px 0;">Login</a>
-    <a href="#" style="color:white;text-decoration:none;display:block;padding:10px 0;">Register</a>
-   
-</div>
-
-
-<script>
-function toggleMenu() {
-    const menu = document.getElementById("mobileMenu");
-    menu.style.display = (menu.style.display === "block") ? "none" : "block";
-}
-</script>
+                    <a href="#" style="color:white;text-decoration:none;display:block;padding:10px 0;">Login</a>
+                    <a href="#" style="color:white;text-decoration:none;display:block;padding:10px 0;">Register</a>
+                    <a href="#" style="color:white;text-decoration:none;display:block;padding:10px 0;">Shop</a>
+                </div>
+                <script>
+                    function toggleMenu() {
+                        const menu = document.getElementById("mobileMenu");
+                        menu.style.display = (menu.style.display === "block") ? "none" : "block";
+                    }
+                </script>
 
 
                 <!-- <button style="
@@ -135,16 +133,14 @@ function toggleMenu() {
     </div>
 
 
-        <!-- Hero Section with Background Image -->
+    <!-- Hero Section with Background Image -->
     <!-- ⭐ HERO SECTION (unchanged) ⭐ -->
-<section class="hero-section" style="position: relative;">
-    <div class="container">
-        <div class="hero-content" style="position: relative;">
+    <section class="hero-section" style="position: relative;">
+        <div class="container">
+            <div class="hero-content" style="position: relative;">
 
-            <!-- ⭐ WATERMARK (unchanged) ⭐ -->
-            <img src="assets/images/watermark.png"
-                 alt="Watermark"
-                 style="
+                <!-- ⭐ WATERMARK (unchanged) ⭐ -->
+                <img src="assets/images/watermark.png" alt="Watermark" style="
                     position:absolute;
                     bottom:80px;
                     right:20px;
@@ -154,10 +150,10 @@ function toggleMenu() {
                     z-index:3;
                  ">
 
-            <h1 class="hero-title">Signal Band</h1>
-            <p class="hero-subtitle">Vibrant Bouyon Music from Dominica</p>
+                <h1 class="hero-title">Signal Band</h1>
+                <p class="hero-subtitle">Vibrant Bouyon Music from Dominica</p>
 
-            <!-- <div class="hero-rating">
+                <!-- <div class="hero-rating">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -171,19 +167,17 @@ function toggleMenu() {
             <div class="hero-website">www.connect767.com</div>
         </div>
     </div> -->
-</section>
+    </section>
 
-<!-- ⭐ ONLY PROFILE IMAGE LIKE FACEBOOK ⭐ -->
-<div style="
+    <!-- ⭐ ONLY PROFILE IMAGE LIKE FACEBOOK ⭐ -->
+    <div style="
     width:100%;
     height:60px;   /* small spacer bar */
     position:relative;
 ">
 
-    <!-- PROFILE overlaps hero -->
-    <img src="assets/images/profile.png"
-         alt="Profile"
-         style="
+        <!-- PROFILE overlaps hero -->
+        <img src="assets/images/profile.png" alt="Profile" style="
             width:150px;
             height:150px;
             border-radius:50%;
@@ -196,268 +190,270 @@ function toggleMenu() {
                 margin-top: -3rem;
 
          ">
-</div>
+    </div>
 
 
 
 
 
 
-        <!-- Description -->
-        <div class="description">
+    <!-- Description -->
+    <div class="description">
 
-    <h2 class="inside-heading">About Us</h2>
+        <h2 class="inside-heading">About Us</h2>
 
-    <p>Signal Band is a vibrant music group specializing in the Bouyon genre, a musical style originating from Dominica.</p>
+        <p>Signal Band is a vibrant music group specializing in the Bouyon genre, a musical style originating from
+            Dominica.</p>
 
-    <p>Since its formation, the band has been captivating audiences with its high-energy performances, blending traditional Caribbean rhythms with modern influences.</p>
+        <p>Since its formation, the band has been captivating audiences with its high-energy performances, blending
+            traditional Caribbean rhythms with modern influences.</p>
 
-</div>
+    </div>
 
 
 
-        <!-- Restaurant Gallery -->
-        <div class="restaurant-gallery">
-            <div class="gallery-main"></div>
-            <div class="gallery-side">
-                <div class="gallery-item"></div>
-                <div class="gallery-item">+</div>
-            </div>
+    <!-- Restaurant Gallery -->
+    <div class="restaurant-gallery">
+        <div class="gallery-main"></div>
+        <div class="gallery-side">
+            <div class="gallery-item"></div>
+            <div class="gallery-item">+</div>
         </div>
+    </div>
 
 
 
-        <!-- Amenities & Opening Hours -->
-        <!-- Replace the current amenities-hours section with this code -->
+    <!-- Amenities & Opening Hours -->
+    <!-- Replace the current amenities-hours section with this code -->
 
-        <div class="amenities-hours">
-            <!-- Replace the first box (amenities) with this code -->
-            <div class="amenities">
-                <h2>Business Details</h2>
+    <div class="amenities-hours">
+        <!-- Replace the first box (amenities) with this code -->
+        <div class="amenities">
+            <h2>Business Details</h2>
 
-                <div class="business-info">
-                    <!-- Business Description -->
-                    
+            <div class="business-info">
+                <!-- Business Description -->
 
-                    <!-- Business Details in 2 Columns -->
-                    <div class="details-grid-two">
-                        <div class="detail-column">
-                            <div class="detail-box">
-                                <div class="detail-label">Business Name</div>
-                                <div class="detail-value">Signal Band</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Email</div>
-                                <div class="detail-value">signaltheband@gmail.com</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Education</div>
-                                <div class="detail-value">Master's Degree</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Country</div>
-                                <div class="detail-value">Dominica</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">State</div>
-                                <div class="detail-value">Saint Andrew</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Building Number</div>
-                                <div class="detail-value">23</div>
-                            </div>
+
+                <!-- Business Details in 2 Columns -->
+                <div class="details-grid-two">
+                    <div class="detail-column">
+                        <div class="detail-box">
+                            <div class="detail-label">Business Name</div>
+                            <div class="detail-value">Signal Band</div>
                         </div>
-
-                        <div class="detail-column">
-                            <div class="detail-box">
-                                <div class="detail-label">Industry</div>
-                                <div class="detail-value">Arts/Music/Entertainment</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Phone Number</div>
-                                <div class="detail-value">+17672778400</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Experience</div>
-                                <div class="detail-value">0-5 Years</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Website</div>
-                                <div class="detail-value">www.connect767.com</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">City</div>
-                                <div class="detail-value">Marigot</div>
-                            </div>
-                            <div class="detail-box">
-                                <div class="detail-label">Street Name</div>
-                                <div class="detail-value">Bayview Avenue</div>
-                            </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Email</div>
+                            <div class="detail-value">signaltheband@gmail.com</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Education</div>
+                            <div class="detail-value">Master's Degree</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Country</div>
+                            <div class="detail-value">Dominica</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">State</div>
+                            <div class="detail-value">Saint Andrew</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Building Number</div>
+                            <div class="detail-value">23</div>
                         </div>
                     </div>
 
-                    <!-- Share Section -->
-                    <div class="share-section">
-                        <div class="share-label">Share</div>
-                        <div class="share-buttons">
-                            <button class="share-btn facebook">
-                                <i class="fab fa-facebook-f"></i>
-                            </button>
-                            <button class="share-btn twitter">
-                                <i class="fab fa-twitter"></i>
-                            </button>
-                            <button class="share-btn instagram">
-                                <i class="fab fa-instagram"></i>
-                            </button>
-                            <button class="share-btn whatsapp">
-                                <i class="fab fa-whatsapp"></i>
-                            </button>
+                    <div class="detail-column">
+                        <div class="detail-box">
+                            <div class="detail-label">Industry</div>
+                            <div class="detail-value">Arts/Music/Entertainment</div>
                         </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Phone Number</div>
+                            <div class="detail-value">+17672778400</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Experience</div>
+                            <div class="detail-value">0-5 Years</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Website</div>
+                            <div class="detail-value">www.connect767.com</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">City</div>
+                            <div class="detail-value">Marigot</div>
+                        </div>
+                        <div class="detail-box">
+                            <div class="detail-label">Street Name</div>
+                            <div class="detail-value">Bayview Avenue</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Share Section -->
+                <div class="share-section">
+                    <div class="share-label">Share</div>
+                    <div class="share-buttons">
+                        <button class="share-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+                        <button class="share-btn twitter">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                        <button class="share-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </button>
+                        <button class="share-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="opening-hours">
+            <h2>Connect With Us</h2>
+
+            <div class="features-list-single">
+
+                <div class="feature-item">
+                    <i class="fab fa-facebook" style="font-size:26px;"></i>
+                    <div>
+                        <h3>Facebook</h3>
+                        <p>Follow us for updates, announcements, and community highlights.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fab fa-instagram" style="font-size:26px;"></i>
+                    <div>
+                        <h3>Instagram</h3>
+                        <p>Explore featured businesses, reviews & behind-the-scenes stories.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <div>
+                        <h3>Twitter (X)</h3>
+                        <p>Get real-time service updates and quick announcements.</p>
                     </div>
                 </div>
             </div>
 
-          <div class="opening-hours">
-    <h2>Connect With Us</h2>
-
-    <div class="features-list-single">
-
-        <div class="feature-item">
-            <i class="fab fa-facebook" style="font-size:26px;"></i>
-            <div>
-                <h3>Facebook</h3>
-                <p>Follow us for updates, announcements, and community highlights.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fab fa-instagram" style="font-size:26px;"></i>
-            <div>
-                <h3>Instagram</h3>
-                <p>Explore featured businesses, reviews & behind-the-scenes stories.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-    <i class="fa-brands fa-x-twitter"></i>
-    <div>
-        <h3>Twitter (X)</h3>
-        <p>Get real-time service updates and quick announcements.</p>
-    </div>
-</div>
-</div>
 
 
-
-        <div class="feature-item">
-            <i class="fab fa-linkedin" style="font-size:26px;"></i>
-            <div>
-                <h3>LinkedIn</h3>
-                <p>Connect with our team and stay updated on business opportunities.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fab fa-youtube" style="font-size:26px;"></i>
-            <div>
-                <h3>YouTube</h3>
-                <p>Watch tutorials, reviews, and business spotlight videos.</p>
-            </div>
-        </div>
-
-        
-
-        <div class="feature-item">
-            <i class="fas fa-globe" style="font-size:26px;"></i>
-            <div>
-                <h3>Official Website</h3>
-                <p>Visit our homepage for top-rated businesses and services.</p>
-            </div>
-        </div>
-
-        <!-- Additional boxes -->
-
-        <div class="feature-item">
-            <i class="fab fa-whatsapp" style="font-size:26px;"></i>
-            <div>
-                <h3>WhatsApp</h3>
-                <p>Chat with our support team instantly for fast help.</p>
-            </div>
-        </div>
-
-        
-
-    </div>
-</div>
-
-        <!-- Video Section -->
-        <!-- Video Section -->
-
-        <!-- Tags & Additional Info -->
-        <div class="tags-additional">
-            <div class="tags-section">
-                <h2>Tags</h2>
-                <div class="tags">
-                    <span class="tag">FOOD</span>
-                    <span class="tag">HOME DELIVERY</span>
-                    <span class="tag">RESTAURANT</span>
-                    <span class="tag">SHOPPING</span>
-                    <span class="tag">TRAVING</span>
+            <div class="feature-item">
+                <i class="fab fa-linkedin" style="font-size:26px;"></i>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with our team and stay updated on business opportunities.</p>
                 </div>
             </div>
-          <div class="additional-info-section">
-    <h2>Business Information</h2>
 
-    <div class="additional-info">
-
-        <!-- COLUMN 1 -->
-        <div class="info-column">
-            <div class="info-item">
-                <span>Business Verification</span>
-                <span>Verified</span>
+            <div class="feature-item">
+                <i class="fab fa-youtube" style="font-size:26px;"></i>
+                <div>
+                    <h3>YouTube</h3>
+                    <p>Watch tutorials, reviews, and business spotlight videos.</p>
+                </div>
             </div>
 
-            <div class="info-item">
-                <span>Profile Completion</span>
-                <span>100%</span>
+
+
+            <div class="feature-item">
+                <i class="fas fa-globe" style="font-size:26px;"></i>
+                <div>
+                    <h3>Official Website</h3>
+                    <p>Visit our homepage for top-rated businesses and services.</p>
+                </div>
             </div>
 
-            <div class="info-item">
-                <span>Customer Support</span>
-                <span>Available</span>
+            <!-- Additional boxes -->
+
+            <div class="feature-item">
+                <i class="fab fa-whatsapp" style="font-size:26px;"></i>
+                <div>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with our support team instantly for fast help.</p>
+                </div>
             </div>
 
-            <div class="info-item">
-                <span>Listing Status</span>
-                <span>Active</span>
-            </div>
+
+
         </div>
-
-        <!-- COLUMN 2 -->
-        <div class="info-column">
-            <div class="info-item">
-                <span>Business Category</span>
-                <span>Arts / Music / Entertainment</span>
-            </div>
-
-            <div class="info-item">
-                <span>Service Area</span>
-                <span>Dominica</span>
-            </div>
-
-            <div class="info-item">
-                <span>Years of Experience</span>
-                <span>0–5 Years</span>
-            </div>
-
-            <div class="info-item">
-                <span>Registration Status</span>
-                <span>Approved</span>
-            </div>
-        </div>
-
     </div>
-</div>
+
+    <!-- Video Section -->
+    <!-- Video Section -->
+
+    <!-- Tags & Additional Info -->
+    <div class="tags-additional">
+        <div class="tags-section">
+            <h2>Tags</h2>
+            <div class="tags">
+                <span class="tag">FOOD</span>
+                <span class="tag">HOME DELIVERY</span>
+                <span class="tag">RESTAURANT</span>
+                <span class="tag">SHOPPING</span>
+                <span class="tag">TRAVING</span>
+            </div>
+        </div>
+        <div class="additional-info-section">
+            <h2>Business Information</h2>
+
+            <div class="additional-info">
+
+                <!-- COLUMN 1 -->
+                <div class="info-column">
+                    <div class="info-item">
+                        <span>Business Verification</span>
+                        <span>Verified</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Profile Completion</span>
+                        <span>100%</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Customer Support</span>
+                        <span>Available</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Listing Status</span>
+                        <span>Active</span>
+                    </div>
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="info-column">
+                    <div class="info-item">
+                        <span>Business Category</span>
+                        <span>Arts / Music / Entertainment</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Service Area</span>
+                        <span>Dominica</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Years of Experience</span>
+                        <span>0–5 Years</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Registration Status</span>
+                        <span>Approved</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
 
